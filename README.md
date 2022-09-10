@@ -1,1 +1,1 @@
-# ruby-playground
+# Just trying to learn ruby on rails

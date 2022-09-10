@@ -1,21 +1,21 @@
-def displayName(name)
+def display_name(name)
   puts "Your full name is #{name}!"
 end
 
-def reverseName(name)
+def reverse_name(name)
   reversedName = name.reverse
   puts "Your full name reversed is #{reversedName}!"
 end
 
-def countChars(name)
+def count_chars(name)
   nameLength = name.length - 1
   puts "Your name has #{nameLength} characters in it"
 end
 
 def generateData(name)
-  displayName name
-  reverseName name
-  countChars name
+  display_name name
+  reverse_name name
+  count_chars name
 end
 
 puts "Enter first name: "
